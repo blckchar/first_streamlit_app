@@ -22,7 +22,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header('Fruityvice Fruit Advice')
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"kiwi")
 
 
 # this will take the json version of the reponse and normalize it to look like a nice table
